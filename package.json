@@ -1,0 +1,15 @@
+{
+  "name": "aha-website-export",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.26.1",
+  "scripts": {
+    "dev": "pnpm --filter @workspace/aha-website run dev",
+    "build": "pnpm --filter @workspace/aha-website run build",
+    "preview": "pnpm --filter @workspace/aha-website run serve",
+    "typecheck": "pnpm --filter @workspace/aha-website run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
